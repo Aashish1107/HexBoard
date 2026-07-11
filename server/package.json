@@ -1,0 +1,45 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "hexboard server",
+  "main": "build/start.js",
+  "type": "module",
+  "scripts": {
+    "init": "cpy \"../src/**/*.ts\" src/client --parents",
+    "build": "tsc --project tsconfig.build.json",
+    "clean": "tsc --build --clean",
+    "test": "jest",
+    "lint": "eslint .",
+    "prestart": "tsc --project tsconfig.build.json",
+    "start": "node build/start.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/jest": "^30.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.32.0",
+    "@typescript-eslint/parser": "^8.32.0",
+    "cpy-cli": "^7.0.0",
+    "eslint": "^9.39.4",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "jsdom": "^29.1.1",
+    "ncp": "^2.0.0",
+    "socket.io-client": "^4.8.3",
+    "ts-jest": "^29.4.0",
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nanoid": "^3.3.4",
+    "socket.io": "^4.5.4"
+  },
+  "overrides": {
+  "glob": "^13.0.0",
+  "jest-environment-jsdom": {
+    "jsdom": "^29.1.1"
+  }
+},
+  "author": ""
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background -->
+  <rect width="64" height="64" rx="10" fill="transparent"/>
+
+  <!-- Hex grid: 7 hexagons arranged in honeycomb pattern (flat-top hexagons) -->
+  <!-- Center hex -->
+  <polygon points="32,18 42,24 42,36 32,42 22,36 22,24" fill="#4a9eff" stroke="#1a6fd4" stroke-width="1.5"/>
+
+  <!-- Top-left hex -->
+  <polygon points="12,7 22,13 22,25 12,31 2,25 2,13" fill="#2d6bbf" stroke="#1a6fd4" stroke-width="1.5"/>
+
+  <!-- Top-right hex -->
+  <polygon points="52,7 62,13 62,25 52,31 42,25 42,13" fill="#2d6bbf" stroke="#1a6fd4" stroke-width="1.5"/>
+
+  <!-- Bottom-left hex -->
+  <polygon points="12,33 22,39 22,51 12,57 2,51 2,39" fill="#2d6bbf" stroke="#1a6fd4" stroke-width="1.5"/>
+
+  <!-- Bottom-right hex -->
+  <polygon points="52,33 62,39 62,51 52,57 42,51 42,39" fill="#2d6bbf" stroke="#1a6fd4" stroke-width="1.5"/>
+
+  <!-- Top-center hex -->
+  <polygon points="32,-6 42,0 42,12 32,18 22,12 22,0" fill="#3a7fd4" stroke="#1a6fd4" stroke-width="1.5"/>
+
+  <!-- Bottom-center hex -->
+  <polygon points="32,42 42,48 42,60 32,66 22,60 22,48" fill="#3a7fd4" stroke="#1a6fd4" stroke-width="1.5"/>
+
+  <!-- Avatar dot on center hex (person/user indicator) -->
+  <circle cx="32" cy="28" r="3.5" fill="#0a3a6e" opacity="0.95"/>
+  <path d="M25.5,38 Q32,33 38.5,38" stroke="#0a3a6e" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.95"/>
+</svg>
