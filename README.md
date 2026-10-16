@@ -1,3 +1,5 @@
+Note: This was a group project as part of the course CompSci 790: Advanced Software Engineering. My responsibilities were to handle the middle end part of the project which involved handling next.js, playwright tests, jest and eslint configurations, the APIs, the API tests, end to end tests and the database.
+
 # HexBoard Node.JS web application
 
 HexBoard is a Next.js + Chakra UI client for creating, editing, and visiting collaborative hex-map "meeting spaces". It pairs with a Socket.IO game server in the server/ folder to broadcast avatar movements and other realtime events.
